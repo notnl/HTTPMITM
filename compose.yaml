@@ -1,0 +1,29 @@
+
+services:
+  webserver:
+    build: ./webserver
+    
+    networks:
+      - samenet
+    ports: 
+      - 80:80
+      -   :443
+
+  sslcapture:
+    build: ./sslcap
+
+    volumes:
+      - ./sslcap/log:/app/sslstrip/log/
+
+    networks:
+      - samenet
+
+    ports: 
+      - 8080:10000
+      - 9090:9090
+
+networks:
+  samenet:
+
+
+

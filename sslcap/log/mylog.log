@@ -1,0 +1,555 @@
+2025-10-06 08:01:33,940 Resolving host: localhost:8080
+2025-10-06 08:01:33,941 Host cached.
+2025-10-06 08:01:33,941 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:01:33,941 My uri : b'/' 
+2025-10-06 08:01:33,941 Before connect tcp
+2025-10-06 08:01:33,944 HTTP connection made.
+2025-10-06 08:01:33,945 Sending Request: b'GET' b'/'
+2025-10-06 08:01:33,945 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:01:33,945 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:01:33,945 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:01:33,945 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:01:33,945 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:01:33,945 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:01:33,945 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:01:33,946 Sending header: b'upgrade-insecure-requests' : b'1'
+2025-10-06 08:01:33,946 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:01:33,946 Sending header: b'accept' : b'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+2025-10-06 08:01:33,946 Sending header: b'sec-fetch-site' : b'none'
+2025-10-06 08:01:33,946 Sending header: b'sec-fetch-mode' : b'navigate'
+2025-10-06 08:01:33,946 Sending header: b'sec-fetch-user' : b'?1'
+2025-10-06 08:01:33,946 Sending header: b'sec-fetch-dest' : b'document'
+2025-10-06 08:01:33,946 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:01:33,946 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:01:33,946 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:01:33,947 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:01:33,947 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:01:33,947 Got server header: b'Date':b'Mon, 06 Oct 2025 08:01:33 GMT'
+2025-10-06 08:01:33,947 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:01:33,948 Got server header: b'Content-Length':b'433'
+2025-10-06 08:01:33,948 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:26 GMT'
+2025-10-06 08:01:33,948 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:01:33,948 Got server header: b'ETag':b'"68e372e2-1b1"'
+2025-10-06 08:01:33,948 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:01:33,949 This is the client ip :192.168.65.1
+2025-10-06 08:01:33,949 Read from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="https://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:01:33,949 b'Found secure reference: https://www.w3schools.com'
+2025-10-06 08:01:33,954 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:01:33,957 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:01:33,958 Modified from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="http://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:01:33,969 Resolving host: localhost:8080
+2025-10-06 08:01:33,969 Host cached.
+2025-10-06 08:01:33,970 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:01:33,970 My uri : b'/main.js' 
+2025-10-06 08:01:33,970 Before connect tcp
+2025-10-06 08:01:33,971 Resolving host: localhost:8080
+2025-10-06 08:01:33,971 Host cached.
+2025-10-06 08:01:33,971 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:01:33,971 My uri : b'/.well-known/appspecific/com.chrome.devtools.json' 
+2025-10-06 08:01:33,971 Before connect tcp
+2025-10-06 08:01:33,974 HTTP connection made.
+2025-10-06 08:01:33,974 Sending Request: b'GET' b'/main.js'
+2025-10-06 08:01:33,974 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:01:33,974 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:01:33,974 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:01:33,974 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:01:33,975 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:01:33,975 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:01:33,975 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:01:33,975 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:01:33,975 Sending header: b'accept' : b'*/*'
+2025-10-06 08:01:33,975 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:01:33,975 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:01:33,975 Sending header: b'sec-fetch-dest' : b'script'
+2025-10-06 08:01:33,975 Sending header: b'referer' : b'http://localhost:8080/'
+2025-10-06 08:01:33,975 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:01:33,975 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:01:33,975 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:01:33,975 HTTP connection made.
+2025-10-06 08:01:33,975 Sending Request: b'GET' b'/.well-known/appspecific/com.chrome.devtools.json'
+2025-10-06 08:01:33,975 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:01:33,976 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:01:33,976 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:01:33,976 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:01:33,976 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:01:33,976 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:01:33,976 Sending header: b'sec-fetch-dest' : b'empty'
+2025-10-06 08:01:33,976 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:01:33,976 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:01:33,977 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:01:33,977 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:01:33,977 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:01:33,977 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:01:33,977 Got server header: b'Date':b'Mon, 06 Oct 2025 08:01:33 GMT'
+2025-10-06 08:01:33,977 Got server header: b'Content-Type':b'application/javascript'
+2025-10-06 08:01:33,977 Got server header: b'Content-Length':b'56'
+2025-10-06 08:01:33,977 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:41 GMT'
+2025-10-06 08:01:33,977 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:01:33,977 Got server header: b'ETag':b'"68e372f1-38"'
+2025-10-06 08:01:33,977 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:01:33,977 This is the client ip :192.168.65.1
+2025-10-06 08:01:33,977 Read from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
+2025-10-06 08:01:33,978 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:01:33,980 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:01:33,981 Modified from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
+2025-10-06 08:01:33,982 Got server response: b'HTTP/1.1' b'404' b'Not Found'
+2025-10-06 08:01:33,982 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:01:33,983 Got server header: b'Date':b'Mon, 06 Oct 2025 08:01:33 GMT'
+2025-10-06 08:01:33,984 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:01:33,985 Got server header: b'Content-Length':b'555'
+2025-10-06 08:01:33,985 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:01:33,985 This is the client ip :192.168.65.1
+2025-10-06 08:01:33,985 Read from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:01:33,986 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:01:33,988 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:01:33,989 Modified from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:02:07,437 Resolving host: localhost:8080
+2025-10-06 08:02:07,437 Host cached.
+2025-10-06 08:02:07,437 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:07,437 My uri : b'/' 
+2025-10-06 08:02:07,438 Before connect tcp
+2025-10-06 08:02:07,439 HTTP connection made.
+2025-10-06 08:02:07,439 Sending Request: b'GET' b'/'
+2025-10-06 08:02:07,440 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:07,440 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:07,440 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:07,440 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:07,440 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:02:07,440 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:02:07,440 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:02:07,440 Sending header: b'upgrade-insecure-requests' : b'1'
+2025-10-06 08:02:07,440 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:07,441 Sending header: b'accept' : b'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+2025-10-06 08:02:07,441 Sending header: b'sec-fetch-site' : b'none'
+2025-10-06 08:02:07,441 Sending header: b'sec-fetch-mode' : b'navigate'
+2025-10-06 08:02:07,441 Sending header: b'sec-fetch-user' : b'?1'
+2025-10-06 08:02:07,441 Sending header: b'sec-fetch-dest' : b'document'
+2025-10-06 08:02:07,441 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:07,441 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:07,441 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:07,442 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:02:07,443 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:07,443 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:07 GMT'
+2025-10-06 08:02:07,443 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:02:07,443 Got server header: b'Content-Length':b'433'
+2025-10-06 08:02:07,444 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:26 GMT'
+2025-10-06 08:02:07,444 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:07,444 Got server header: b'ETag':b'"68e372e2-1b1"'
+2025-10-06 08:02:07,444 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:02:07,445 This is the client ip :192.168.65.1
+2025-10-06 08:02:07,445 Read from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="https://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:02:07,445 b'Found secure reference: https://www.w3schools.com'
+2025-10-06 08:02:07,447 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:07,452 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:07,453 Modified from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="http://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:02:07,466 Resolving host: localhost:8080
+2025-10-06 08:02:07,467 Host cached.
+2025-10-06 08:02:07,467 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:07,467 My uri : b'/.well-known/appspecific/com.chrome.devtools.json' 
+2025-10-06 08:02:07,468 Before connect tcp
+2025-10-06 08:02:07,470 Resolving host: localhost:8080
+2025-10-06 08:02:07,470 Host cached.
+2025-10-06 08:02:07,470 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:07,470 My uri : b'/main.js' 
+2025-10-06 08:02:07,470 Before connect tcp
+2025-10-06 08:02:07,471 HTTP connection made.
+2025-10-06 08:02:07,471 Sending Request: b'GET' b'/.well-known/appspecific/com.chrome.devtools.json'
+2025-10-06 08:02:07,471 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:07,471 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:07,471 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:07,471 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:07,471 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:02:07,471 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:02:07,471 Sending header: b'sec-fetch-dest' : b'empty'
+2025-10-06 08:02:07,471 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:07,471 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:07,471 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:07,471 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:07,471 HTTP connection made.
+2025-10-06 08:02:07,472 Sending Request: b'GET' b'/main.js'
+2025-10-06 08:02:07,472 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:07,472 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:07,472 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:07,472 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:07,472 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:02:07,472 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:07,472 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:02:07,472 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:02:07,472 Sending header: b'accept' : b'*/*'
+2025-10-06 08:02:07,472 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:02:07,473 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:02:07,473 Sending header: b'sec-fetch-dest' : b'script'
+2025-10-06 08:02:07,473 Sending header: b'referer' : b'http://localhost:8080/'
+2025-10-06 08:02:07,473 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:07,473 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:07,473 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:07,473 Got server response: b'HTTP/1.1' b'404' b'Not Found'
+2025-10-06 08:02:07,473 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:07,473 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:07 GMT'
+2025-10-06 08:02:07,473 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:02:07,473 Got server header: b'Content-Length':b'555'
+2025-10-06 08:02:07,473 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:07,473 This is the client ip :192.168.65.1
+2025-10-06 08:02:07,473 Read from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:02:07,474 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:07,475 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:07,476 Modified from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:02:07,476 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:02:07,476 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:07,477 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:07 GMT'
+2025-10-06 08:02:07,477 Got server header: b'Content-Type':b'application/javascript'
+2025-10-06 08:02:07,477 Got server header: b'Content-Length':b'56'
+2025-10-06 08:02:07,477 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:41 GMT'
+2025-10-06 08:02:07,477 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:07,477 Got server header: b'ETag':b'"68e372f1-38"'
+2025-10-06 08:02:07,477 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:02:07,477 This is the client ip :192.168.65.1
+2025-10-06 08:02:07,477 Read from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
+2025-10-06 08:02:07,478 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:07,479 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:07,479 Modified from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
+2025-10-06 08:02:25,011 Resolving host: localhost:8080
+2025-10-06 08:02:25,011 Host cached.
+2025-10-06 08:02:25,011 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:25,011 My uri : b'/' 
+2025-10-06 08:02:25,011 Before connect tcp
+2025-10-06 08:02:25,013 HTTP connection made.
+2025-10-06 08:02:25,013 Sending Request: b'GET' b'/'
+2025-10-06 08:02:25,013 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:25,013 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:25,013 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:25,013 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:25,013 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:02:25,014 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:02:25,014 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:02:25,014 Sending header: b'upgrade-insecure-requests' : b'1'
+2025-10-06 08:02:25,014 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:25,014 Sending header: b'accept' : b'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+2025-10-06 08:02:25,014 Sending header: b'sec-fetch-site' : b'none'
+2025-10-06 08:02:25,014 Sending header: b'sec-fetch-mode' : b'navigate'
+2025-10-06 08:02:25,014 Sending header: b'sec-fetch-user' : b'?1'
+2025-10-06 08:02:25,014 Sending header: b'sec-fetch-dest' : b'document'
+2025-10-06 08:02:25,015 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:25,015 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:25,015 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:25,015 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:02:25,015 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:25,015 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:25 GMT'
+2025-10-06 08:02:25,016 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:02:25,016 Got server header: b'Content-Length':b'433'
+2025-10-06 08:02:25,016 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:26 GMT'
+2025-10-06 08:02:25,017 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:25,017 Got server header: b'ETag':b'"68e372e2-1b1"'
+2025-10-06 08:02:25,017 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:02:25,017 This is the client ip :192.168.65.1
+2025-10-06 08:02:25,017 Read from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="https://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:02:25,017 b'Found secure reference: https://www.w3schools.com'
+2025-10-06 08:02:25,019 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:25,022 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:25,023 Modified from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="http://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:02:25,035 Resolving host: localhost:8080
+2025-10-06 08:02:25,036 Host cached.
+2025-10-06 08:02:25,037 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:25,038 My uri : b'/main.js' 
+2025-10-06 08:02:25,039 Before connect tcp
+2025-10-06 08:02:25,039 Resolving host: localhost:8080
+2025-10-06 08:02:25,039 Host cached.
+2025-10-06 08:02:25,039 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:25,040 My uri : b'/.well-known/appspecific/com.chrome.devtools.json' 
+2025-10-06 08:02:25,040 Before connect tcp
+2025-10-06 08:02:25,040 HTTP connection made.
+2025-10-06 08:02:25,040 Sending Request: b'GET' b'/main.js'
+2025-10-06 08:02:25,040 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:25,040 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:25,040 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:25,040 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:25,040 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:02:25,041 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:25,041 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:02:25,041 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:02:25,041 Sending header: b'accept' : b'*/*'
+2025-10-06 08:02:25,041 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:02:25,041 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:02:25,041 Sending header: b'sec-fetch-dest' : b'script'
+2025-10-06 08:02:25,041 Sending header: b'referer' : b'http://localhost:8080/'
+2025-10-06 08:02:25,041 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:25,041 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:25,041 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:25,042 HTTP connection made.
+2025-10-06 08:02:25,042 Sending Request: b'GET' b'/.well-known/appspecific/com.chrome.devtools.json'
+2025-10-06 08:02:25,042 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:25,042 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:25,042 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:25,042 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:25,042 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:02:25,042 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:02:25,042 Sending header: b'sec-fetch-dest' : b'empty'
+2025-10-06 08:02:25,043 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:25,043 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:25,043 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:25,043 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:25,043 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:02:25,043 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:25,043 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:25 GMT'
+2025-10-06 08:02:25,043 Got server header: b'Content-Type':b'application/javascript'
+2025-10-06 08:02:25,043 Got server header: b'Content-Length':b'56'
+2025-10-06 08:02:25,043 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:41 GMT'
+2025-10-06 08:02:25,043 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:25,044 Got server header: b'ETag':b'"68e372f1-38"'
+2025-10-06 08:02:25,044 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:02:25,044 This is the client ip :192.168.65.1
+2025-10-06 08:02:25,044 Read from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
+2025-10-06 08:02:25,045 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:25,046 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:25,046 Modified from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
+2025-10-06 08:02:25,047 Got server response: b'HTTP/1.1' b'404' b'Not Found'
+2025-10-06 08:02:25,047 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:25,048 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:25 GMT'
+2025-10-06 08:02:25,048 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:02:25,048 Got server header: b'Content-Length':b'555'
+2025-10-06 08:02:25,049 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:25,049 This is the client ip :192.168.65.1
+2025-10-06 08:02:25,049 Read from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:02:25,050 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:25,051 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:25,052 Modified from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:02:25,334 Resolving host: localhost:8080
+2025-10-06 08:02:25,335 Host cached.
+2025-10-06 08:02:25,335 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:25,335 My uri : b'/' 
+2025-10-06 08:02:25,335 Before connect tcp
+2025-10-06 08:02:25,337 HTTP connection made.
+2025-10-06 08:02:25,337 Sending Request: b'GET' b'/'
+2025-10-06 08:02:25,337 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:25,337 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:25,337 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:25,337 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:25,337 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:02:25,337 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:02:25,338 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:02:25,338 Sending header: b'upgrade-insecure-requests' : b'1'
+2025-10-06 08:02:25,338 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:25,338 Sending header: b'accept' : b'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+2025-10-06 08:02:25,338 Sending header: b'sec-fetch-site' : b'none'
+2025-10-06 08:02:25,338 Sending header: b'sec-fetch-mode' : b'navigate'
+2025-10-06 08:02:25,338 Sending header: b'sec-fetch-user' : b'?1'
+2025-10-06 08:02:25,338 Sending header: b'sec-fetch-dest' : b'document'
+2025-10-06 08:02:25,338 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:25,338 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:25,339 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:25,339 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:02:25,339 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:25,339 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:25 GMT'
+2025-10-06 08:02:25,340 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:02:25,341 Got server header: b'Content-Length':b'433'
+2025-10-06 08:02:25,341 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:26 GMT'
+2025-10-06 08:02:25,341 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:25,342 Got server header: b'ETag':b'"68e372e2-1b1"'
+2025-10-06 08:02:25,342 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:02:25,342 This is the client ip :192.168.65.1
+2025-10-06 08:02:25,342 Read from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="https://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:02:25,343 b'Found secure reference: https://www.w3schools.com'
+2025-10-06 08:02:25,345 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:25,350 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:25,351 Modified from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="http://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:02:25,367 Resolving host: localhost:8080
+2025-10-06 08:02:25,368 Host cached.
+2025-10-06 08:02:25,368 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:25,368 My uri : b'/.well-known/appspecific/com.chrome.devtools.json' 
+2025-10-06 08:02:25,369 Before connect tcp
+2025-10-06 08:02:25,370 Resolving host: localhost:8080
+2025-10-06 08:02:25,370 Host cached.
+2025-10-06 08:02:25,370 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:25,370 My uri : b'/main.js' 
+2025-10-06 08:02:25,370 Before connect tcp
+2025-10-06 08:02:25,370 HTTP connection made.
+2025-10-06 08:02:25,370 Sending Request: b'GET' b'/.well-known/appspecific/com.chrome.devtools.json'
+2025-10-06 08:02:25,371 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:25,371 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:25,371 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:25,371 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:25,371 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:02:25,371 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:02:25,371 Sending header: b'sec-fetch-dest' : b'empty'
+2025-10-06 08:02:25,371 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:25,371 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:25,371 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:25,371 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:25,372 HTTP connection made.
+2025-10-06 08:02:25,372 Sending Request: b'GET' b'/main.js'
+2025-10-06 08:02:25,372 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:25,372 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:25,372 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:25,373 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:25,373 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:02:25,373 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:25,373 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:02:25,373 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:02:25,373 Sending header: b'accept' : b'*/*'
+2025-10-06 08:02:25,373 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:02:25,373 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:02:25,373 Sending header: b'sec-fetch-dest' : b'script'
+2025-10-06 08:02:25,373 Sending header: b'referer' : b'http://localhost:8080/'
+2025-10-06 08:02:25,373 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:25,373 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:25,373 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:25,373 Got server response: b'HTTP/1.1' b'404' b'Not Found'
+2025-10-06 08:02:25,373 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:25,374 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:25 GMT'
+2025-10-06 08:02:25,374 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:02:25,374 Got server header: b'Content-Length':b'555'
+2025-10-06 08:02:25,374 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:25,374 This is the client ip :192.168.65.1
+2025-10-06 08:02:25,374 Read from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:02:25,374 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:25,376 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:25,376 Modified from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:02:25,377 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:02:25,377 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:25,377 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:25 GMT'
+2025-10-06 08:02:25,378 Got server header: b'Content-Type':b'application/javascript'
+2025-10-06 08:02:25,378 Got server header: b'Content-Length':b'56'
+2025-10-06 08:02:25,378 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:41 GMT'
+2025-10-06 08:02:25,378 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:25,378 Got server header: b'ETag':b'"68e372f1-38"'
+2025-10-06 08:02:25,378 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:02:25,378 This is the client ip :192.168.65.1
+2025-10-06 08:02:25,378 Read from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
+2025-10-06 08:02:25,379 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:25,380 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:25,380 Modified from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
+2025-10-06 08:02:25,522 Resolving host: localhost:8080
+2025-10-06 08:02:25,522 Host cached.
+2025-10-06 08:02:25,522 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:25,522 My uri : b'/' 
+2025-10-06 08:02:25,523 Before connect tcp
+2025-10-06 08:02:25,524 HTTP connection made.
+2025-10-06 08:02:25,524 Sending Request: b'GET' b'/'
+2025-10-06 08:02:25,524 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:25,524 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:25,525 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:25,525 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:25,525 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:02:25,525 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:02:25,525 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:02:25,525 Sending header: b'upgrade-insecure-requests' : b'1'
+2025-10-06 08:02:25,525 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:25,525 Sending header: b'accept' : b'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+2025-10-06 08:02:25,525 Sending header: b'sec-fetch-site' : b'none'
+2025-10-06 08:02:25,525 Sending header: b'sec-fetch-mode' : b'navigate'
+2025-10-06 08:02:25,526 Sending header: b'sec-fetch-user' : b'?1'
+2025-10-06 08:02:25,526 Sending header: b'sec-fetch-dest' : b'document'
+2025-10-06 08:02:25,526 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:25,526 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:25,526 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:25,526 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:02:25,526 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:25,526 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:25 GMT'
+2025-10-06 08:02:25,527 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:02:25,527 Got server header: b'Content-Length':b'433'
+2025-10-06 08:02:25,527 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:26 GMT'
+2025-10-06 08:02:25,527 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:25,527 Got server header: b'ETag':b'"68e372e2-1b1"'
+2025-10-06 08:02:25,527 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:02:25,528 This is the client ip :192.168.65.1
+2025-10-06 08:02:25,528 Read from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="https://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:02:25,528 b'Found secure reference: https://www.w3schools.com'
+2025-10-06 08:02:25,529 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:25,532 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:25,533 Modified from server:
+b'<!DOCTYPE html>\n\n<html>\n\n\t<head>\n\t\t<meta charset="UTF-8"> \n\t\t<meta name="viewport"> \n\t\t<title>Based on the way i displayed the traffic this won\'t show in intercepted traffic Testing Site </title>\n\n        <script src="main.js" type="text/javascript"> </script>\n\n\t</head>\n\n\t<body>\n\t\t<div> Hi </div>\n\t\t<div> how did you intercept this traffic? </div>\n\n\t       <a href="http://www.w3schools.com">Visit W3Schools</a>\n\n\t</body>\n\n</html>\n'
+2025-10-06 08:02:25,548 Resolving host: localhost:8080
+2025-10-06 08:02:25,548 Host cached.
+2025-10-06 08:02:25,548 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:25,549 My uri : b'/.well-known/appspecific/com.chrome.devtools.json' 
+2025-10-06 08:02:25,549 Before connect tcp
+2025-10-06 08:02:25,551 Resolving host: localhost:8080
+2025-10-06 08:02:25,551 Host cached.
+2025-10-06 08:02:25,551 Resolved host successfully: localhost:8080 -> webserver
+2025-10-06 08:02:25,551 My uri : b'/main.js' 
+2025-10-06 08:02:25,551 Before connect tcp
+2025-10-06 08:02:25,552 HTTP connection made.
+2025-10-06 08:02:25,552 Sending Request: b'GET' b'/.well-known/appspecific/com.chrome.devtools.json'
+2025-10-06 08:02:25,552 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:25,553 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:25,553 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:25,553 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:25,553 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:02:25,553 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:02:25,553 Sending header: b'sec-fetch-dest' : b'empty'
+2025-10-06 08:02:25,553 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:25,553 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:25,553 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:25,553 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:25,554 HTTP connection made.
+2025-10-06 08:02:25,554 Sending Request: b'GET' b'/main.js'
+2025-10-06 08:02:25,554 Sending header: b'host' : b'localhost:8080'
+2025-10-06 08:02:25,554 Sending header: b'connection' : b'keep-alive'
+2025-10-06 08:02:25,554 Sending header: b'pragma' : b'no-cache'
+2025-10-06 08:02:25,554 Sending header: b'cache-control' : b'no-cache'
+2025-10-06 08:02:25,554 Sending header: b'sec-ch-ua-platform' : b'"macOS"'
+2025-10-06 08:02:25,554 Sending header: b'user-agent' : b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+2025-10-06 08:02:25,554 Sending header: b'sec-ch-ua' : b'"Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"'
+2025-10-06 08:02:25,554 Sending header: b'sec-ch-ua-mobile' : b'?0'
+2025-10-06 08:02:25,554 Sending header: b'accept' : b'*/*'
+2025-10-06 08:02:25,555 Sending header: b'sec-fetch-site' : b'same-origin'
+2025-10-06 08:02:25,555 Sending header: b'sec-fetch-mode' : b'no-cors'
+2025-10-06 08:02:25,555 Sending header: b'sec-fetch-dest' : b'script'
+2025-10-06 08:02:25,555 Sending header: b'referer' : b'http://localhost:8080/'
+2025-10-06 08:02:25,555 Sending header: b'accept-encoding' : b'gzip, deflate, br, zstd'
+2025-10-06 08:02:25,555 Sending header: b'accept-language' : b'en-GB,en-US;q=0.9,en;q=0.8'
+2025-10-06 08:02:25,555 Sending header: b'cookie' : b'csrftoken=geXy5OyGFk5uOq1zwhf6l2SJqShnJR3A'
+2025-10-06 08:02:25,555 Got server response: b'HTTP/1.1' b'404' b'Not Found'
+2025-10-06 08:02:25,555 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:25,555 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:25 GMT'
+2025-10-06 08:02:25,555 Got server header: b'Content-Type':b'text/html'
+2025-10-06 08:02:25,555 Got server header: b'Content-Length':b'555'
+2025-10-06 08:02:25,555 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:25,556 This is the client ip :192.168.65.1
+2025-10-06 08:02:25,556 Read from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:02:25,556 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:25,558 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:25,558 Modified from server:
+b'<html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx/1.29.1</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n'
+2025-10-06 08:02:25,558 Got server response: b'HTTP/1.1' b'200' b'OK'
+2025-10-06 08:02:25,559 Got server header: b'Server':b'nginx/1.29.1'
+2025-10-06 08:02:25,559 Got server header: b'Date':b'Mon, 06 Oct 2025 08:02:25 GMT'
+2025-10-06 08:02:25,559 Got server header: b'Content-Type':b'application/javascript'
+2025-10-06 08:02:25,559 Got server header: b'Content-Length':b'56'
+2025-10-06 08:02:25,559 Got server header: b'Last-Modified':b'Mon, 06 Oct 2025 07:42:41 GMT'
+2025-10-06 08:02:25,559 Got server header: b'Connection':b'keep-alive'
+2025-10-06 08:02:25,559 Got server header: b'ETag':b'"68e372f1-38"'
+2025-10-06 08:02:25,560 Got server header: b'Accept-Ranges':b'bytes'
+2025-10-06 08:02:25,560 This is the client ip :192.168.65.1
+2025-10-06 08:02:25,560 Read from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
+2025-10-06 08:02:25,560 Starting new HTTP connection (1): localhost:9090
+2025-10-06 08:02:25,561 http://localhost:9090 "POST /stream HTTP/1.1" 200 7
+2025-10-06 08:02:25,561 Modified from server:
+b"console.log('Test')\nconsole.log('js files stolen how?')\n"
