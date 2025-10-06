@@ -9,6 +9,11 @@ A Web interface served using Flask will be run at localhost:9090.
 
 The target web server is at localhost:8080.
 
+# Details
+
+The flask server uses 2 deque data structure to order requests based on client ip, then all of the captured traffic based on that client ip
+will be displayed in order of which the response is received. 
+
 
 # Building 
 Ensure that the bash script is executable and Docker is installed
