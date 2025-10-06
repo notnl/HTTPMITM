@@ -64,6 +64,7 @@
 *.max
 
 
+.DS_Store
 
 # Environment variables
 .env
